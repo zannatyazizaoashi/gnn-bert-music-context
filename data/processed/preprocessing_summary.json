@@ -1,0 +1,22 @@
+{
+  "profile": "quick",
+  "processed_tracks": 1000,
+  "failed_tracks": 0,
+  "split_counts": {
+    "training": 800,
+    "validation": 100,
+    "test": 100
+  },
+  "num_labels": 8,
+  "labels": [
+    "Electronic",
+    "Experimental",
+    "Folk",
+    "Hip-Hop",
+    "Instrumental",
+    "International",
+    "Pop",
+    "Rock"
+  ],
+  "node_feature_dimension": 330
+}

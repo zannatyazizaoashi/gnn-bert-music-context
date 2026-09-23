@@ -1,0 +1,21 @@
+{
+  "split_counts": {
+    "training": 800,
+    "validation": 100,
+    "test": 100
+  },
+  "duplicate_track_ids": 0,
+  "track_overlap": {
+    "training_vs_validation": 0,
+    "training_vs_test": 0,
+    "validation_vs_test": 0
+  },
+  "artist_overlap": {
+    "training_vs_validation": 0,
+    "training_vs_test": 0,
+    "validation_vs_test": 0
+  },
+  "target_words_in_text": "not_applicable: labels were never used by make_text()",
+  "official_fma_split_used": true,
+  "note": "FMA official splits are authoritative. Artist overlap is reported transparently as requested by the brief."
+}

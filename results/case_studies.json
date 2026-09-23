@@ -1,0 +1,170 @@
+[
+  {
+    "track_id": 60875,
+    "text": "Track: Piece de Tarita. Album: Live at the 2012 Golden Festival Main Stage. Artist: Eastern Watershed Klezmer Quartet",
+    "true_labels": [
+      "International"
+    ],
+    "top_predictions": [
+      {
+        "label": "International",
+        "probability": 0.9841086268424988
+      },
+      {
+        "label": "Rock",
+        "probability": 0.35884183645248413
+      },
+      {
+        "label": "Pop",
+        "probability": 0.3572468161582947
+      }
+    ],
+    "highest_attention_tokens": [
+      {
+        "token": "at",
+        "weight": 0.34479090571403503
+      },
+      {
+        "token": "the",
+        "weight": 0.29597511887550354
+      },
+      {
+        "token": "live",
+        "weight": 0.08324966579675674
+      },
+      {
+        "token": "festival",
+        "weight": 0.07938088476657867
+      },
+      {
+        "token": "stage",
+        "weight": 0.047305505722761154
+      },
+      {
+        "token": "main",
+        "weight": 0.043152373284101486
+      },
+      {
+        "token": "golden",
+        "weight": 0.016872070729732513
+      },
+      {
+        "token": "##lez",
+        "weight": 0.011448417790234089
+      }
+    ],
+    "graph_path_interpretation": "Edges show temporal or high-cosine-similarity connections among 5-second segments."
+  },
+  {
+    "track_id": 60871,
+    "text": "Track: Avante Me Fante. Album: Live at the 2012 Golden Festival Main Stage. Artist: Eastern Watershed Klezmer Quartet",
+    "true_labels": [
+      "International"
+    ],
+    "top_predictions": [
+      {
+        "label": "International",
+        "probability": 0.9833299517631531
+      },
+      {
+        "label": "Pop",
+        "probability": 0.3683236837387085
+      },
+      {
+        "label": "Rock",
+        "probability": 0.35261452198028564
+      }
+    ],
+    "highest_attention_tokens": [
+      {
+        "token": "at",
+        "weight": 0.33886274695396423
+      },
+      {
+        "token": "the",
+        "weight": 0.3302844166755676
+      },
+      {
+        "token": "festival",
+        "weight": 0.08135709166526794
+      },
+      {
+        "token": "live",
+        "weight": 0.08130685985088348
+      },
+      {
+        "token": "stage",
+        "weight": 0.0444847010076046
+      },
+      {
+        "token": "main",
+        "weight": 0.04300512373447418
+      },
+      {
+        "token": "golden",
+        "weight": 0.015117423608899117
+      },
+      {
+        "token": "2012",
+        "weight": 0.007936719805002213
+      }
+    ],
+    "graph_path_interpretation": "Edges show temporal or high-cosine-similarity connections among 5-second segments."
+  },
+  {
+    "track_id": 43768,
+    "text": "Track: Franklin'in Karsilamasi. Album: Live at the 2011 Golden Festival: Ansambl Mastika. Artist: Ansambl Mastika",
+    "true_labels": [
+      "International"
+    ],
+    "top_predictions": [
+      {
+        "label": "International",
+        "probability": 0.9828891754150391
+      },
+      {
+        "label": "Rock",
+        "probability": 0.36387544870376587
+      },
+      {
+        "label": "Pop",
+        "probability": 0.34649837017059326
+      }
+    ],
+    "highest_attention_tokens": [
+      {
+        "token": "at",
+        "weight": 0.5614139437675476
+      },
+      {
+        "token": "the",
+        "weight": 0.25286611914634705
+      },
+      {
+        "token": "live",
+        "weight": 0.08520375937223434
+      },
+      {
+        "token": "festival",
+        "weight": 0.04193979129195213
+      },
+      {
+        "token": "##bl",
+        "weight": 0.005162976216524839
+      },
+      {
+        "token": ":",
+        "weight": 0.004855235107243061
+      },
+      {
+        "token": ":",
+        "weight": 0.004776617977768183
+      },
+      {
+        "token": "2011",
+        "weight": 0.004206111654639244
+      }
+    ],
+    "graph_path_interpretation": "Edges show temporal or high-cosine-similarity connections among 5-second segments."
+  }
+]

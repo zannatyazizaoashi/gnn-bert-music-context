@@ -1,0 +1,15 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+data/raw/*
+!data/raw/.gitkeep
+data/processed/graphs/*
+data/processed/mels/*
+results/checkpoints/*
+*.zip
+report/*.aux
+report/*.bbl
+report/*.blg
+report/*.log
+report/*.out

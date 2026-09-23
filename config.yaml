@@ -1,0 +1,77 @@
+seed: 42
+
+paths:
+  raw_dir: data/raw
+  metadata_dir: data/raw/fma_metadata
+  audio_dir: data/raw/fma_small
+  processed_dir: data/processed
+  graph_dir: data/processed/graphs
+  mel_dir: data/processed/mels
+  graph_sample_dir: data/processed/samples
+  manifest: data/processed/manifest.csv
+  label_map: data/processed/label_map.json
+  results_dir: results
+  plots_dir: plots
+  checkpoints_dir: results/checkpoints
+
+download:
+  metadata_url: https://os.unil.cloud.switch.ch/fma/fma_metadata.zip
+  fma_small_url: https://os.unil.cloud.switch.ch/fma/fma_small.zip
+
+data:
+  sample_rate: 22050
+  duration_seconds: 29.0
+  segment_seconds: 5.0
+  n_mels: 128
+  n_mfcc: 20
+  n_fft: 2048
+  hop_length: 512
+  similarity_threshold: 0.80
+  similarity_top_k: 2
+  label_mode: top_genre
+  max_labels: 20
+  min_label_frequency: 25
+  text_fields: [track_title, album_title, artist_name]
+
+model:
+  text_model: distilbert-base-uncased
+  max_text_length: 96
+  freeze_bert_layers: 4
+  gnn_hidden_dim: 192
+  gnn_layers: 3
+  fusion_dim: 192
+  attention_heads: 4
+  dropout: 0.30
+  projection_dim: 128
+  temperature: 0.07
+
+training:
+  batch_size: 16
+  bert_batch_size: 12
+  learning_rate: 0.001
+  bert_learning_rate: 0.00002
+  weight_decay: 0.0001
+  epochs: 20
+  patience: 5
+  num_workers: 2
+  decision_threshold: 0.50
+  tune_threshold: true
+
+profiles:
+  smoke:
+    max_tracks: 48
+    epochs: 1
+    batch_size: 8
+  quick:
+    max_tracks: 1000
+    epochs: 5
+    batch_size: 16
+  final:
+    max_tracks: null
+    epochs: 20
+    batch_size: 24
+
+experiments:
+  required_models: [random, cnn, bert, gnn, early_concat, cross_attention]
+  run_contrastive_bonus: false
+

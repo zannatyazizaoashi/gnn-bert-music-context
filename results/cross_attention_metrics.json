@@ -1,0 +1,26 @@
+{
+  "threshold": 0.7000000000000002,
+  "macro_f1": 0.29826527102068895,
+  "micro_f1": 0.3035019455252918,
+  "macro_auc_pr": 0.3017893309496542,
+  "micro_auc_pr": 0.24607922475914956,
+  "per_label_auc_pr": [
+    0.1712819407628043,
+    0.3311973760135575,
+    0.43027095236203156,
+    0.15343116703377932,
+    0.18519222672743618,
+    0.6358426397379771,
+    0.1516886286255615,
+    0.355409716334086
+  ],
+  "exact_match": 0.12,
+  "model": "cross_attention",
+  "best_validation_macro_f1": 0.4279339799456867,
+  "epochs_trained": 5,
+  "duration_seconds": 24.936214447021484,
+  "trainable_parameters": 14860424,
+  "total_parameters": 67047560,
+  "profile": "quick",
+  "test_examples": 100
+}
